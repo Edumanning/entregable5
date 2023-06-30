@@ -1,0 +1,246 @@
+.pokedexName{
+    width: 100%;
+    height: auto;
+    background-image: url('/public/fondo\ purpura.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.pokedexName__article{
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;    
+}
+
+.pokedexName__sec, .pokedexName__stats{
+    display: flex;
+    flex-direction: column;
+    background-color: #0000003f;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 450px;
+    gap: 1rem;
+    border: 4px solid #615386;
+
+}
+
+.pokedexName__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedexName__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pokedexName__info-id, .pokedexName__info-name{
+    text-transform: capitalize;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.856);
+    display: flex;
+    flex-direction: row;
+}
+
+.pokedexName__details{
+    padding: 0.8rem;
+    background-color: rgb(59, 59, 58);
+    display: flex;
+    font-size: 0.9rem;
+    border-radius: 0.8rem;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.pokedexName__weight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pokedexName__height{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pokedexName__details2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokedexName__type{
+    text-transform: capitalize;
+}
+.pokedexName__type-title{
+    text-align: center;
+    border-bottom: 2px solid rgb(70, 65, 67);
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.pokedexName__type-data{
+    width: 100%;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.list__type{
+    padding: 0.5rem;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(47, 123, 238);
+    color: white;
+    border-bottom: 2px solid rgb(70, 65, 67);
+}
+
+.pokedexName__ability{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokedexName__ability-cont{
+    text-transform: capitalize;
+}
+
+.pokedexName__ability-title{
+    text-align: center;
+    border-bottom: 2px solid rgb(70, 65, 67);
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.pokedexName__ability-data{
+    width: 100%;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.list__ability{
+    padding: 0.5rem;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(161, 47, 238);
+    color: white;
+    border-bottom: 2px solid rgb(70, 65, 67);
+}
+
+.pokedexName__stats{
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+
+.pokedexName__stats-title{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.pokedexName__stats-data{
+    text-transform: capitalize;
+    width: 100%;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.list__stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.3rem 0 0.3rem;    
+    border-radius: 0.3rem;
+    color: rgb(255, 255, 255);
+    gap: 0.2rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.pokeCard__stats-item-level {
+    text-align: center;
+    font-weight: 500;
+    font-size:1.2rem;
+    width: 40px;
+}
+
+.pokeCard__stats-item-relleno {
+    background-color: #888888;
+    width: 100%;
+    border-radius: 0.8rem;
+    height: 0.9em;
+}
+
+.pokeCard__stats-item-barra {
+    max-width: 400px;
+    position: absolute;
+    background: linear-gradient(49deg, rgb(173, 224, 173) 0%, rgb(3, 187, 3) 100%);
+    height: 1.3rem;
+    border-radius: 0.8rem;
+}
+
+.pokedexName__moves{
+    display: flex;
+    flex-direction: column;
+    background-color: #0000003f;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 700px;
+    gap: 1rem;
+    border: 4px solid #615386;
+
+}
+
+.pokedexName__moves-title{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.pokedexName__moves-data{
+    width: 100%;
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 1.2rem;
+    gap: 0.5rem;
+}
+
+.list__moves{
+    padding: 0.3rem;
+    background: rgb(69, 68, 71);
+    border-radius: 0.3rem;
+    color: white;
+}

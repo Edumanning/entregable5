@@ -1,0 +1,13 @@
+.poke__container{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: rgb(236, 240, 235);
+    background-image: url('/bgApp.svg');
+    background-size: 10%;
+    background-position: center;
+
+}
